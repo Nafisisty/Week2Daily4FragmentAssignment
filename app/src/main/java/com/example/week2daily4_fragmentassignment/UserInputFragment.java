@@ -65,6 +65,10 @@ public class UserInputFragment extends Fragment {
 
             User user = new User(name, email, password);
             mListener.sendToActivity(user);
+
+            userNameEditText.setText("");
+            userEmailEditText.setText("");
+            userPasswordEditText.setText("");
         }
     }
 

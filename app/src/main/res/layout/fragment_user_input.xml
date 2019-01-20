@@ -11,18 +11,23 @@
         android:id="@+id/userNameEditTextId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="name"
         android:textSize="24sp"/>
 
     <EditText
         android:id="@+id/userEmailEditTextId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="email"
+        android:inputType="textEmailAddress"
         android:textSize="24sp"/>
 
     <EditText
         android:id="@+id/userPasswordEditTextId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
         android:textSize="24sp"/>
 
     <Button
